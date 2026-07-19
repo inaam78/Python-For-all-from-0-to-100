@@ -1,0 +1,14 @@
+a=["apple","ali","abdullah",7,55.33,"orange",False]
+a.append("inaam")
+print(a)
+a.insert(4,"sana")
+print(a)
+a.reverse()
+print(a)
+a.pop(5)
+print(a)
+a.remove("inaam")
+print(a)
+l1=[1,5,87,3,9,2,22]
+l1.sort()
+print(l1)

@@ -1,0 +1,15 @@
+# if names are same then most recent one will be stored because we use update method ,   #also the duplicates of key can store the most recent one,  #but if the value is same then it prints the same values as it is:
+d={}
+name=input("Enter the name:")
+language=input("Enter the language:")
+d.update({name:language})
+name=input("Enter the name:")
+language=input("Enter the language:")
+d.update({name:language})
+name=input("Enter the name:")
+language=input("Enter the language:")
+d.update({name:language})
+name=input("Enter the name:")
+language=input("Enter the language:")
+d.update({name:language})
+print(d)

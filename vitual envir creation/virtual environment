@@ -1,0 +1,7 @@
+python -m venv myenv      # Create
+
+myenv\Scripts\activate    # Activate (Windows)
+
+pip install package_name  # Install package
+
+deactivate                # Exit
